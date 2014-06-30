@@ -1,0 +1,57 @@
+#csv_upload {
+    position: relative;
+}
+
+#csv_upload .wrapper {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+#csv_upload .wrapper:hover {
+    opacity: 0;
+}
+
+#csv_upload button {
+    position: relative;
+    top: 0;
+    z-index: 1;
+}
+.alert .close{
+right: 0 !important;
+top: 0 !important;    
+}
+
+/*.overlay_tabs {
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.80;
+    background-color: #FFFFFF;
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 365px;
+    width: 100%;
+    z-index: 2;
+
+}*/
+.overlay_tabs h2 {
+    position: fixed;
+    margin-left: 40%;
+    top: 40%;
+}
+
+label.error
+{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: medium none !important;
+    color: #FF0000;
+    width: 100% !important;
+}
+
+.overlay_edit{
+     position: relative;
+    z-index: 3;
+}

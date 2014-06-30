@@ -1,0 +1,48 @@
+.one-fourth-div {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 0 0 5px;
+	float: left;
+	margin: 0 1.5% 20px;
+	min-width: 165px;
+	overflow: hidden;
+	width: 22%;
+}
+.label-div {
+	background: none repeat scroll 0 0 #EEEEEE;
+	border-right: 1px solid #CCCCCC;
+	float: left;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	width: 75%;
+}
+.checkbox-div {
+	float: left;
+	margin: 0;
+	text-align: center;
+	width: 25%;
+}
+.checkbox-div input {
+	display: inline-block;
+	margin: 0;
+	width: 20px;
+	height: 34px;
+}
+@media (max-width:820px) {
+.one-fourth-div {
+width: 30.3%;
+}
+}
+@media (max-width:640px) {
+.one-fourth-div {
+width: 47%;
+}
+}
+@media (max-width:500px) {
+.one-fourth-div {
+width: 97%;
+}
+}

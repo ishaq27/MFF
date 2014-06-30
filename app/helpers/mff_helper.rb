@@ -1,0 +1,2 @@
+module MffHelper
+end

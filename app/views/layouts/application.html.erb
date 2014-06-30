@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+	<link type="text/css" rel="stylesheet" href="assets/stylesheets/bootstrap.min.css">
+  
+  
+<!-- web font  -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+<!-- Pop up-->
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/application.css" />
+
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/bootstrap.min.css" />
+
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/custom.css" />
+
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/layout.css" />
+
+<link rel="stylesheet" type="text/css" href="assets/stylesheets/sea-green.css" />
+
+</head>
+<body class="activateAppearAnimation">
+
+	<div id="globalWrapper">
+  <header class="navbar-fixed-top">
+    <div class="top_nav">
+      <div class="container">
+      <style>
+      .col{ z-index:999999;}
+      </style>
+       
+        <div class="col"> Hi Atif <span class="blog-item"><i class="icon-lock"></i> Bag [<span class="yello-color"> 0</span> ] item</span></div>
+      </div>
+    </div>
+    
+    <!-- header -->
+    <div id="mainHeader" role="banner">
+      <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="navbar-header"> 
+            <!-- responsive navigation -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <!-- Logo --> 
+            <a   class="navbar-brand" href="index.html"><img class="images-logo"  src="images/main-logo.png" alt=""/></a><span class="primary firstLevel active hasSubMenu pull-left top-side-text" >what you want...when you want it!</span> </div>
+          <div class="collapse navbar-collapse" id="mainMenu"> 
+            
+            <!-- Main navigation -->
+           
+            <ul class="nav navbar-nav pull-right">
+             <li class="primary"> <a href="index.html" class=""> <span class="home-icon-1"></span>How it works</a> 
+              <li class="primary"> <a href="features-neko-shortcodes.html" class="" > <span class="home-icon-2"></span>Help </i></a> </li>
+              </li>
+              <li class="primary nekoMegaMenuTrigger"> <a data-toggle="modal" data-backdrop="static" href="#myMail" class="" title="New messages"><span class="home-icon-3"></span>Sign In </a> </li>
+              
+              
+              <li class="primary nekoMegaMenuTrigger"> <a data-toggle="modal" data-backdrop="static" href="#meal-deal" class="" title="New messages"><span class="home-icon-4"></span>Join </a> </li>
+            </ul>
+            <!-- End main navigation --> 
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <section class="row mb15">
+  
+  <!-- header --> 
+  <!-- ======================================= content ======================================= --> 
+  <!-- slider -->
+  <section class="carouselHome pt40 pb40 color2">
+    <div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <div class="owl-carousel1 nekoDataOwl" data-neko_items="1" data-neko_singleitem="true" data-neko_paginationnumbers="true" data-neko_transitionstyle="backSlide">
+    <!--item -->
+    <div class="item">
+    <div class="row"> 
+      <!--Banner Tab Center-->
+      <style>
+  
+      
+      </style>
+	
+<%= yield %>
+
+</body>
+</html>
