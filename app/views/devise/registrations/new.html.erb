@@ -1,0 +1,39 @@
+<h2>Sign up</h2>
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= devise_error_messages! %>
+
+<div class="container">
+      
+      <!-- tabs -->
+      <div class="row tab_bg"> 
+        
+        <!-- Content -->
+        <div style=" background:#00ba65; color:#FFF; padding-top:10px; padding-bottom:10px; " class="col-md-12">Your Information</div>
+        <div class="col-md-12 tab_side">
+          <div class="tab-content">
+            <div class="tab-pane  in active" id="responsive">
+              <div class="row">
+                <div class="col-md-6">
+                  <section class="form-group">
+                    <%= f.label "First Name"%>
+                    <%= f.text_field :first_name%></br>
+
+                    <%= f.label "Last Name"%>
+                    <%= f.text_field :last_name%></br>
+
+                    <%= f.label "Email"%>
+                    <%= f.text_field :email%></br>
+
+                    <%= f.label "Password"%>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<%end%>

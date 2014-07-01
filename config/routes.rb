@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  root 'mff#index'
+    root 'mff#index'
+  get 'signup/signup'
+
+  get 'signup/create'
+
+
   get 'mff/index'
 
   get 'mff/search'
@@ -11,6 +16,7 @@ Rails.application.routes.draw do
   get 'mff/create'
 
   get 'mff/edit'
+
 
   devise_for :users
 
